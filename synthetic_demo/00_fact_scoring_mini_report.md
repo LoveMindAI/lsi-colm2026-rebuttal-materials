@@ -4,6 +4,12 @@ This toy demonstration starts with only a fictional name, Megyn Velasquez-Greenb
 
 This is not evidence for the paper's statistical claims. It is a small, inspectable example of the score-to-narrative-to-score logic used in the rebuttal materials.
 
+## What Is Unique Here
+
+The persona is fully synthetic. We first asked two models to invent ordinary biographical facts for a person with a fictional name, consolidated those into seven facts, and then froze that fact sheet before any psychometric profile-writing or LSI generation occurred. No participant data, production profiles, or real transcripts are used anywhere in this demo.
+
+The first interesting result is that the scoring panel found a stable psychometric silhouette from those sparse facts alone. Across the 11 scored dimensions, the four scorers had a mean pairwise correlation of `r = 0.871`; the average scorer range was `0.46` points on a 1-5 scale, with 8 of 11 dimensions varying by no more than `0.5` points and no dimension varying by more than `0.8`. This should not be read as evidence that the fictional person has a "true" personality. It shows that the four independent model raters made similar commonsense trait inferences from the same minimal fictional material, which gives the toy pipeline a coherent synthetic target to carry forward.
+
 ## Scoring Panel
 
 - gemini_3_flash: `google/gemini-3-flash-preview`
