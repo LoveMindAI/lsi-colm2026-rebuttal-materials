@@ -10,6 +10,10 @@ The persona is fully synthetic. We first asked two models to invent ordinary bio
 
 The first interesting result is that the scoring panel found a stable psychometric silhouette from those sparse facts alone. Across the 11 scored dimensions, the four scorers had a mean pairwise correlation of `r = 0.871`; the average scorer range was `0.46` points on a 1-5 scale, with 8 of 11 dimensions varying by no more than `0.5` points and no dimension varying by more than `0.8`. This should not be read as evidence that the fictional person has a "true" personality. It shows that the four independent model raters made similar commonsense trait inferences from the same minimal fictional material, which gives the toy pipeline a coherent synthetic target to carry forward.
 
+## Prompt Scope
+
+This is a public toy demonstration, not a protocol-equivalent rerun of the paper pipeline. The generated narrative profiles and synthetic LSIs were produced with simplified demo instructions designed for inspectability around a fictional persona. The production profile-writing prompts and generated-profile LSI instructions are not included.
+
 ## Scoring Panel
 
 - gemini_3_flash: `google/gemini-3-flash-preview`

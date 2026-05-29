@@ -11,3 +11,5 @@ The synthetic target profile is inferred from the name and seven fictional facts
 3. generated interwoven-biography narrative profiles
 
 The generated profiles and 24-section synthetic LSI transcripts are included as outputs. The shareable reverse-scoring prompt and deterministic scorecard prompt are included. The production profile-writing instructions and generated-profile LSI instructions are not included.
+
+This is a public toy demonstration, not a protocol-equivalent rerun of the paper pipeline. The generated narrative profiles and synthetic LSIs were produced with simplified demo instructions designed for inspectability around a fictional persona. They should be read as an illustrative score-to-narrative-to-score example, not as disclosure of the study's production prompt templates.
