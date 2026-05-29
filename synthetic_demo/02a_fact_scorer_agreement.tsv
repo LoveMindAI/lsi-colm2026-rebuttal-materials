@@ -1,0 +1,12 @@
+group	dimension	composite_mean	min_scorer_value	max_scorer_value	range	gemini_3_flash	sonnet_4_6	qwen_3_6_plus	grok_4_20
+HEXACO	HEXACO_Honesty_Humility	3.975	3.5	4.2	0.7	3.5	4.2	4.0	4.2
+HEXACO	HEXACO_Emotionality	3.150	3.0	3.6	0.6	3.0	3.6	3.0	3.0
+HEXACO	HEXACO_Extraversion	3.025	3.0	3.1	0.1	3.0	3.0	3.0	3.1
+HEXACO	HEXACO_Agreeableness	3.775	3.5	4.0	0.5	3.5	3.8	4.0	3.8
+HEXACO	HEXACO_Conscientiousness	4.450	4.3	4.5	0.2	4.5	4.3	4.5	4.5
+HEXACO	HEXACO_Openness	3.550	3.5	3.7	0.2	3.5	3.5	3.5	3.7
+Beyond HEXACO	Sentimentality	4.125	4.0	4.5	0.5	4.0	4.0	4.5	4.0
+Beyond HEXACO	Social_Anxiety	2.675	2.2	3.0	0.8	3.0	2.5	3.0	2.2
+Beyond HEXACO	Trust_Benevolence	3.775	3.5	4.0	0.5	3.5	3.7	4.0	3.9
+Beyond HEXACO	Affective_Responsiveness	3.775	3.5	4.0	0.5	3.5	3.8	4.0	3.8
+Beyond HEXACO	SVO_Prosocial_Orientation	4.300	4.0	4.5	0.5	4.0	4.4	4.5	4.3

@@ -1,0 +1,12 @@
+group	dimension	consensus_score	description
+HEXACO	HEXACO_Honesty_Humility	3.975	sincere, fair, modest, not exploitative
+HEXACO	HEXACO_Emotionality	3.150	emotionally sensitive, anxious or attached, responsive to risk and loss
+HEXACO	HEXACO_Extraversion	3.025	socially bold, energetic, expressive, socially confident
+HEXACO	HEXACO_Agreeableness	3.775	patient, forgiving, flexible under conflict
+HEXACO	HEXACO_Conscientiousness	4.450	organised, disciplined, careful, persistent
+HEXACO	HEXACO_Openness	3.550	curious, imaginative, intellectually and aesthetically exploratory
+Beyond HEXACO	Sentimentality	4.125	attachment warmth and emotional tenderness toward close others
+Beyond HEXACO	Social_Anxiety	2.675	self-consciousness or discomfort in evaluative social settings
+Beyond HEXACO	Trust_Benevolence	3.775	expectation that other people are basically well-intentioned
+Beyond HEXACO	Affective_Responsiveness	3.775	capacity for empathic emotional resonance with others
+Beyond HEXACO	SVO_Prosocial_Orientation	4.300	preference for cooperative or mutually beneficial outcomes

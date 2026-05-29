@@ -1,0 +1,32 @@
+{
+  "name": "Megyn Velasquez-Greenblum",
+  "fact_models": {
+    "opus_4_6": "anthropic/claude-opus-4.6",
+    "gemini_3_1_pro": "google/gemini-3.1-pro-preview"
+  },
+  "profile_models": {
+    "opus_4_6": "anthropic/claude-opus-4.6",
+    "gemma_4_31b": "google/gemma-4-31b-it"
+  },
+  "scorers": {
+    "gemini_3_flash": "google/gemini-3-flash-preview",
+    "sonnet_4_6": "anthropic/claude-sonnet-4.6",
+    "qwen_3_6_plus": "qwen/qwen3.6-plus",
+    "grok_4_20": "x-ai/grok-4.20"
+  },
+  "dimensions": [
+    "HEXACO_Honesty_Humility",
+    "HEXACO_Emotionality",
+    "HEXACO_Extraversion",
+    "HEXACO_Agreeableness",
+    "HEXACO_Conscientiousness",
+    "HEXACO_Openness",
+    "Sentimentality",
+    "Social_Anxiety",
+    "Trust_Benevolence",
+    "Affective_Responsiveness",
+    "SVO_Prosocial_Orientation"
+  ],
+  "stage": "profiles_only_from_frozen_fact_composite",
+  "note": "Hidden profile-writing prompts are not exported. All identity material is fictional."
+}
