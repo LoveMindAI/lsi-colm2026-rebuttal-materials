@@ -1,0 +1,6 @@
+judge	n_judges	items_per_judge	task	accuracy	chance	test	note
+Prolific native-English human readers	25	25	four-option profile-to-generated-life-story match	0.595	0.250	t(24) = 8.24, one-tailed p < 1e-8	Human readers saw brief snippets of profile information and generated LSI themes.
+Gemini 3 Flash	1	50	same 50-item masked matching control	0.780	0.250	above chance	LLM judge calibration, not a human replacement.
+GPT-5.4-Mini	1	50	same 50-item masked matching control	0.840	0.250	above chance	LLM judge calibration, not a human replacement.
+Qwen 3.6 Plus	1	50	same 50-item masked matching control	0.860	0.250	above chance	LLM judge calibration, not a human replacement.
+Grok 4.20	1	50	same 50-item masked matching control	0.860	0.250	above chance	LLM judge calibration, not a human replacement.

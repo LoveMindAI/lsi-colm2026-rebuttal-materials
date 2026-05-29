@@ -15,4 +15,4 @@ The main changes we would make in a camera-ready version are targeted and review
 
 The interpretation is deliberately bounded. The strongest evidence remains the generated life-story recovery result. The PARSEL conversation data are useful but short, noisy, and not format-matched to reflective life stories. The additional analyses make the existing claim cleaner and better supported; they do not turn the paper into a new study about full human personality simulation.
 
-This repository contains the paste-ready responses, a short supplemental note for details that could not fit cleanly inside the response boxes, and a compact list of targeted camera-ready additions.
+This repository contains the paste-ready responses, a short supplemental note for details that could not fit cleanly inside the response boxes, a compact list of targeted camera-ready additions, and aggregate tables for the main rebuttal numbers.

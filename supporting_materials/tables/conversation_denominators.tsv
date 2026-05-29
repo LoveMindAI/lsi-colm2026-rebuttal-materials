@@ -1,0 +1,7 @@
+quantity	estimate	scope	use_in_rebuttal
+Self-reported HEXACO to coded real-conversation features	mean abs r = 0.094	Observed feature-level personality signal in short PARSEL conversations.	Denominator for interpreting small cross-context feature correlations.
+Best HEXACO trait per conversation feature	max selected r = 0.181	Favourable per-feature selection reference, not the main denominator.	Shows the upper edge of recoverable feature signal under selection.
+Generated LSI feature to real-conversation same feature	r = 0.147-0.180	Feature-level same-feature correspondence between generated life stories and real conversations.	Correspondence is modest but close to the recoverable human-feature reference.
+Partner-perceived HEXACO after PARSEL conversation to self-report HEXACO	mean matched-domain r = 0.157	Human partner perception after the same short dyadic interaction.	Human-human denominator for short-conversation personality perception.
+Independent LLM scorers recover HEXACO from real conversations	r = 0.179-0.221	Same-metric Pearson recovery from short conversations, depending on ensemble.	Shows real conversations contain limited but nonzero recoverable signal.
+Generated 24-turn LSIs recover HEXACO	r = 0.761-0.787	High-granularity generated narratives in current headline conditions.	Different communicative format; included to clarify the generated narrative versus real conversation gap.

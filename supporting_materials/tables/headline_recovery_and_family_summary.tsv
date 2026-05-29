@@ -1,0 +1,5 @@
+comparison	HEXACO_r	Beyond_HEXACO_r	note
+24-turn psychometric-only LSI	0.787	0.619	High-granularity generated narrative condition.
+24-turn psychometric-plus-biographical LSI	0.761	0.613	Narrative profile interweaves psychometrics with biography.
+same-family scorer/generator cells	0.751	0.600	No advantage over cross-family cells.
+cross-family scorer/generator cells	0.760	0.610	Cross-family cells are slightly higher.

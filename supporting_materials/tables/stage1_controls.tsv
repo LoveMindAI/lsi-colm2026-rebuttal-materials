@@ -1,0 +1,5 @@
+condition	profile_step	HEXACO_r	Beyond_HEXACO_r	sixteen_target_mean_r	SVO_r	interpretation
+psychometric-only narrative profile	LLM score-to-narrative transformation	0.761	0.618	0.672	0.572	Matched narrative profile used as the main Stage 1 comparison.
+exact-score compact scorecard	deterministic numeric scorecard, no LLM prose generation	0.654	0.515	0.567	0.412	Direct numeric handoff carries signal but is lower than narrative transformation.
+exact-score glossary scorecard	deterministic scorecard plus trait glossary	0.728	0.584	0.638	0.549	Extra interpretation narrows but does not erase the narrative advantage.
+lexical ablation	profile-overlapping generated-narrative tokens removed	change = -0.001 to -0.020	not applicable	not applicable	not applicable	Removing 20-26 percent profile/narrative lexical overlap has little effect on HEXACO recovery.

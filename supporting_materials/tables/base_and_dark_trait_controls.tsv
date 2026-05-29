@@ -1,0 +1,10 @@
+condition	family	n	HEXACO_r	dark_axis_aggregate_r	PPTS_total_r	note
+facts-only control	control	50	0.132	0.099	0.131	Low-signal control.
+Mistral-Small-24B-Base-2501	base	50	0.556	0.607	0.657	Base checkpoint matching the setup in Kang et al. arXiv:2504.11673.
+Gemma 4 31B base	base	50	0.557	0.731	0.822	Base model control.
+OLMo 3 32B base	base	50	0.628	0.771	0.830	Base model control.
+Qwen 3.6 27B base	base	50	0.691	0.790	0.921	Base model control.
+Qwen regular generator	regular	50	0.716	0.868	0.962	Regular instruction-tuned generator.
+Gemma regular generator	regular	50	0.780	0.873	0.953	Regular instruction-tuned generator.
+Qwen high-fidelity refusal-ablation generator	refusal-ablation	50	0.756	0.859	0.954	Less safety-filtered ablation.
+Gemma high-fidelity refusal-ablation generator	refusal-ablation	50	0.815	0.895	0.965	Less safety-filtered ablation.

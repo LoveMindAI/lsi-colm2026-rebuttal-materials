@@ -1,0 +1,9 @@
+check	estimate	note
+Gemini 3 Flash valence coder	Sentimentality partial r = 0.497; 8/8 lanes p < .05	Original 16-feature emotion coder.
+Grok 4.20 valence recode	Sentimentality partial r = 0.450; 8/8 lanes p < .05	Independent valence-only recode.
+Qwen 3.7 Max valence recode	Sentimentality partial r = 0.449; 8/8 lanes p < .05	Independent valence-only recode.
+Mimo v2.5 Pro valence recode	Sentimentality partial r = 0.424; 8/8 lanes p < .05	Independent valence-only recode.
+Unconditioned 24-turn narratives	between-story valence-SD spread = 0.070-0.088	No personality profile; at least 50 narratives per generator family.
+Conditioned 24-turn lanes	between-story valence-SD spread = 0.102-0.131	Personality-conditioned lanes; larger spread than all unconditioned sets.
+Conditioned versus unconditioned tests	27/32 Brown-Forsythe comparisons separate conditioned from unconditioned	Supports conditioning-driven interpretation.
+Embedding-space analogue	Emotionality mean partial r = 0.203; Sentimentality mean partial r = 0.165	Coder-independent convergence check, not primary evidence.
