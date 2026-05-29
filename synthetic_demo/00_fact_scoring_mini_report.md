@@ -60,3 +60,20 @@ Reverse scoring the generated LSIs tests whether the sparse-fact composite remai
 | deterministic_scorecard | 0.913 | 0.511 | 0.869 | 0.964 |
 
 See `generated_lsi_transcripts/` for the transcripts and `06_lsi_reverse_scoring_summary.tsv` for the full summary.
+
+## Toy Lexical-Ablation Check
+
+Because the public demo uses simplified instructions, the generated LSI format is visibly more structured than the production pipeline. We therefore added a toy lexical-ablation stress test for the four generated-profile conditions. For each generated psychometric-only or interwoven-biography profile, we extracted profile content-words and rewrote the corresponding LSI transcript while avoiding those words. This tests whether the toy recovery is mostly carried by literal profile wording.
+
+The ablation reduced overlapping profile words by `24.6%` to `71.7%`. The synthetic target remained recoverable after ablation: all-dimension recovery stayed between `r = 0.849` and `0.900`, and HEXACO recovery stayed between `r = 0.870` and `0.922`.
+
+| conditioning object | profile-overlap reduction | all-dim r before | all-dim r after | HEXACO r before | HEXACO r after |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| opus_4_6_psych_only | 24.6% | 0.928 | 0.900 | 0.908 | 0.875 |
+| opus_4_6_interwoven_bio | 58.2% | 0.826 | 0.849 | 0.885 | 0.922 |
+| gemma_4_31b_psych_only | 58.2% | 0.909 | 0.884 | 0.920 | 0.870 |
+| gemma_4_31b_interwoven_bio | 71.7% | 0.902 | 0.893 | 0.871 | 0.896 |
+
+This remains a toy check, not a substitute for the main-paper lexical ablation. Its value is narrower: even in a deliberately inspectable public demo with a more visibly structured LSI format, the recovered trait shape is not erased when profile-overlap wording is substantially reduced.
+
+See `generated_lsi_transcripts_lexical_ablation/` for the ablated transcripts and `07_lsi_lexical_ablation_summary.tsv` for the full summary.
