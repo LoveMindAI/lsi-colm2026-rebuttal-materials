@@ -1,0 +1,6 @@
+object	all_dimensions_pearson_r_to_synthetic_target	all_dimensions_mean_absolute_error	hexaco_pearson_r_to_synthetic_target	hexaco_mean_absolute_error	beyond_hexaco_pearson_r_to_synthetic_target	beyond_hexaco_mean_absolute_error
+opus_4_6_psych_only	0.928	0.541	0.908	0.533	0.965	0.550
+opus_4_6_interwoven_bio	0.826	0.511	0.885	0.546	0.869	0.470
+gemma_4_31b_psych_only	0.909	0.625	0.920	0.617	0.973	0.635
+gemma_4_31b_interwoven_bio	0.902	0.630	0.871	0.575	0.959	0.695
+deterministic_scorecard	0.913	0.511	0.869	0.471	0.964	0.560

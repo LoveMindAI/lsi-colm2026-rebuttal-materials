@@ -8,6 +8,7 @@
     "opus_4_6": "anthropic/claude-opus-4.6",
     "gemma_4_31b": "google/gemma-4-31b-it"
   },
+  "lsi_model": "google/gemini-3-flash-preview",
   "scorers": {
     "gemini_3_flash": "google/gemini-3-flash-preview",
     "sonnet_4_6": "anthropic/claude-sonnet-4.6",
@@ -27,6 +28,6 @@
     "Affective_Responsiveness",
     "SVO_Prosocial_Orientation"
   ],
-  "stage": "profiles_only_from_frozen_fact_composite",
-  "note": "Hidden profile-writing prompts are not exported. All identity material is fictional."
+  "stage": "lsi_demo_from_frozen_fact_composite",
+  "note": "Production profile-writing prompts and generated-profile LSI-generation instructions are not exported. The deterministic toy scorecard prompt is included. All identity material is fictional."
 }

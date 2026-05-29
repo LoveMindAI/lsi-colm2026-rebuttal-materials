@@ -1,0 +1,9 @@
+generator	profile_condition	n_scorer_cells	HEXACO6_mean	HEXACO6_min	HEXACO6_max	Beyond10_mean	Beyond10_min	Beyond10_max	Continuous16_mean	Continuous16_min	Continuous16_max	SVO_angle_mean
+GPT-4.1	interwoven_biography	5	0.757	0.733	0.782	0.616	0.578	0.631	0.669	0.636	0.683	0.430
+Gemini 3 Flash	interwoven_biography	5	0.790	0.765	0.806	0.636	0.610	0.660	0.694	0.668	0.715	0.582
+Gemma 4 31B IT	interwoven_biography	5	0.788	0.775	0.801	0.631	0.604	0.657	0.690	0.668	0.711	0.548
+Qwen 3.6 27B	interwoven_biography	5	0.708	0.677	0.730	0.570	0.552	0.592	0.622	0.599	0.644	0.451
+GPT-4.1	psychometric_only	5	0.784	0.771	0.806	0.623	0.594	0.637	0.683	0.660	0.698	0.477
+Gemini 3 Flash	psychometric_only	5	0.810	0.799	0.819	0.641	0.622	0.666	0.705	0.688	0.724	0.595
+Gemma 4 31B IT	psychometric_only	5	0.805	0.790	0.817	0.630	0.608	0.656	0.695	0.676	0.716	0.583
+Qwen 3.6 27B	psychometric_only	5	0.749	0.730	0.769	0.582	0.564	0.591	0.644	0.634	0.657	0.486

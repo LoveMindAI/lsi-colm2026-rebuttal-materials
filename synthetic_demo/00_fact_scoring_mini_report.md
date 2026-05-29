@@ -21,8 +21,32 @@ See `02a_fact_scorer_agreement.tsv` for the scorer-by-scorer values and ranges.
 
 ## Profile-Writing Check
 
-Using the fact-derived composite as the target, we generated four narrative profiles: psychometric-only and psychometric-plus-biographical profiles from Opus 4.6 and Gemma 4 31B. A deterministic scorecard prompt is included as a transparent reference condition.
+Using the frozen composite target, we generated four narrative profiles: psychometric-only and interwoven-biography profiles from Opus 4.6 and Gemma 4 31B. We also generated one deterministic scorecard profile that simply exposes the fictional facts and composite scores in a compact, shareable form.
 
-The narrative profiles reverse-score back toward the synthetic target with high rank-order fidelity in this toy example. Across all dimensions, Opus psychometric-only is highest (`r = 0.951`, MAE `0.502`), followed by Opus interwoven biography (`r = 0.868`, MAE `0.557`), Gemma interwoven biography (`r = 0.814`, MAE `0.711`), and Gemma psychometric-only (`r = 0.810`, MAE `0.627`). The deterministic scorecard is near-perfect by construction (`r = 1.000`, MAE `0.007`).
+Reverse scoring those profile objects shows that the synthetic target remains recoverable before the LSI stage:
 
-See `05_profile_reverse_scoring_summary.tsv` for HEXACO and beyond-HEXACO scores shown separately.
+| conditioning object | all-dim r | all-dim MAE | HEXACO r | beyond-HEXACO r |
+| --- | ---: | ---: | ---: | ---: |
+| deterministic_scorecard | 1.000 | 0.007 | 1.000 | 1.000 |
+| opus_4_6_psych_only | 0.951 | 0.502 | 0.940 | 0.965 |
+| opus_4_6_interwoven_bio | 0.868 | 0.557 | 0.881 | 0.983 |
+| gemma_4_31b_psych_only | 0.810 | 0.627 | 0.800 | 0.944 |
+| gemma_4_31b_interwoven_bio | 0.814 | 0.711 | 0.900 | 0.943 |
+
+See `generated_profiles/` for the profile outputs and `05_profile_reverse_scoring_summary.tsv` for the full profile-stage summary.
+
+## LSI Demonstration Check
+
+We then passed the deterministic scorecard and the four generated narrative profiles into a 24-section synthetic LSI generation step. The toy deterministic scorecard instruction is included because it is not part of the production pipeline. The profile-writing instructions and the generated-profile LSI instructions are not included because narrative construction is part of the broader research programme. The generated transcripts themselves are included.
+
+Reverse scoring the generated LSIs tests whether the sparse-fact composite remains recoverable after another transformation into interview-style narrative text.
+
+| conditioning object | all-dim r | all-dim MAE | HEXACO r | beyond-HEXACO r |
+| --- | ---: | ---: | ---: | ---: |
+| opus_4_6_psych_only | 0.928 | 0.541 | 0.908 | 0.965 |
+| opus_4_6_interwoven_bio | 0.826 | 0.511 | 0.885 | 0.869 |
+| gemma_4_31b_psych_only | 0.909 | 0.625 | 0.920 | 0.973 |
+| gemma_4_31b_interwoven_bio | 0.902 | 0.630 | 0.871 | 0.959 |
+| deterministic_scorecard | 0.913 | 0.511 | 0.869 | 0.964 |
+
+See `generated_lsi_transcripts/` for the transcripts and `06_lsi_reverse_scoring_summary.tsv` for the full summary.

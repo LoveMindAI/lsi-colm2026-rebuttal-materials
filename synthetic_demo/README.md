@@ -6,6 +6,6 @@ The synthetic target profile is inferred from the name and seven fictional facts
 
 1. a shareable deterministic scorecard prompt
 2. generated psychometric-only narrative profiles
-3. generated psychometric-plus-biographical narrative profiles
+3. generated interwoven-biography narrative profiles
 
-The generated narrative profiles are included as outputs, but the profile-writing instructions used to create them are not included.
+The generated profiles and 24-section synthetic LSI transcripts are included as outputs. The shareable reverse-scoring prompt and deterministic scorecard prompt are included. The production profile-writing instructions and generated-profile LSI instructions are not included.
