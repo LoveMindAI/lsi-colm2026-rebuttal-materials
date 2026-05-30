@@ -23,6 +23,16 @@ This is not evidence for the paper's statistical claims. It is an inspectable to
 - Profile writers: Opus 4.6 and Gemma 4 31B.
 - LSI generator and lexical ablator: Gemini 3 Flash.
 
+## How To Read The Model Chain
+
+This demo begins with only the character names. Opus 4.6, Gemini 3.1 Pro, and Grok 4.20 were each asked to generate seven ordinary fictional facts for each name, with no psychometric labels or hidden score targets. Those fact sets were then consolidated into one frozen fact sheet per character.
+
+The HEXACO and beyond-HEXACO scores are not human ground truth and are not assumed to be "in" the name. They are synthetic targets inferred by a separate scoring panel from the frozen facts that were generated from the name alone. In other words, the causal chain is:
+
+`name -> model-generated facts -> independent reverse-scored synthetic target -> generated profile portraits -> 24-section synthetic LSIs -> reverse scoring`
+
+This lets the demo ask whether the pipeline can preserve a coherent inferred trait shape after several transformations. It should not be read as claiming that a fictional character has real psychometric scores, or that names determine personality. The scores are a deliberately artificial target used to make the transformations inspectable.
+
 ## Character Differentiation
 
 The first candidate trio included a more conventional Midwestern repair-and-maintenance character. He was nicely textured, but too close to Cillian in trait space. Roxy Saint-Clair was added as a replacement because she produced a more socially vivid and narratively distinct profile: Louisiana, towing dispatch, real estate, magnolia tattoo, dented sedan, red beans for an uncle, and late-night clarinet.
