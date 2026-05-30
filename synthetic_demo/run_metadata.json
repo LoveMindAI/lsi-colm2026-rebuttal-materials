@@ -28,8 +28,9 @@
     "Affective_Responsiveness",
     "SVO_Prosocial_Orientation"
   ],
-  "stage": "lsi_demo_from_frozen_fact_composite",
+  "stage": "lsi_demo_from_frozen_fact_composite_style_control_v2",
   "note": "Production profile-writing prompts and generated-profile LSI-generation instructions are not exported. The deterministic toy scorecard prompt is included. All identity material is fictional.",
-  "ablation_model": "google/gemini-3.1-flash-lite",
-  "ablation_note": "Toy lexical-ablation rewrites were run only for generated psychometric-only and interwoven-biography profiles, not for the deterministic scorecard condition."
+  "ablation_model": "google/gemini-3-flash-preview",
+  "ablation_note": "Strict toy lexical-ablation rewrites were run only for generated psychometric-only and interwoven-biography profiles, not for the deterministic scorecard condition.",
+  "profile_prompt_style": "second-person, non-chronological generated-profile demo prompt; no scenes and no life-story/interview language"
 }

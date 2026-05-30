@@ -12,7 +12,7 @@ The first interesting result is that the scoring panel found a stable psychometr
 
 ## Prompt Scope
 
-This is a public toy demonstration, not a protocol-equivalent rerun of the paper pipeline. The generated narrative profiles and synthetic LSIs were produced with simplified demo instructions designed for inspectability around a fictional persona. The production profile-writing prompts and generated-profile LSI instructions are not included.
+This is a public toy demonstration, not a protocol-equivalent rerun of the paper pipeline. The generated narrative profiles and synthetic LSIs were produced with simplified demo instructions designed for inspectability around a fictional persona. To keep the profile stage from becoming a mini-LSI, the generated-profile prompt used second-person, non-chronological prose and explicitly avoided scenes, interview framing, and life-story language. The production profile-writing prompts and generated-profile LSI instructions are not included.
 
 ## Scoring Panel
 
@@ -31,17 +31,17 @@ See `02a_fact_scorer_agreement.tsv` for the scorer-by-scorer values and ranges.
 
 ## Profile-Writing Check
 
-Using the frozen composite target, we generated four narrative profiles: psychometric-only and interwoven-biography profiles from Opus 4.6 and Gemma 4 31B. We also generated one deterministic scorecard profile that simply exposes the fictional facts and composite scores in a compact, shareable form.
+Using the frozen composite target, we generated four narrative profiles: psychometric-only and interwoven-biography profiles from Opus 4.6 and Gemma 4 31B. These profiles use second-person, non-chronological portrait prose rather than scenes or life-story structure. We also generated one deterministic scorecard profile that simply exposes the fictional facts and composite scores in a compact, shareable form.
 
 Reverse scoring those profile objects shows that the synthetic target remains recoverable before the LSI stage:
 
 | conditioning object | all-dim r | all-dim MAE | HEXACO r | beyond-HEXACO r |
 | --- | ---: | ---: | ---: | ---: |
 | deterministic_scorecard | 1.000 | 0.007 | 1.000 | 1.000 |
-| opus_4_6_psych_only | 0.951 | 0.502 | 0.940 | 0.965 |
-| opus_4_6_interwoven_bio | 0.868 | 0.557 | 0.881 | 0.983 |
-| gemma_4_31b_psych_only | 0.810 | 0.627 | 0.800 | 0.944 |
-| gemma_4_31b_interwoven_bio | 0.814 | 0.711 | 0.900 | 0.943 |
+| opus_4_6_psych_only | 0.940 | 0.491 | 0.919 | 0.964 |
+| opus_4_6_interwoven_bio | 0.949 | 0.434 | 0.923 | 0.982 |
+| gemma_4_31b_psych_only | 0.849 | 0.705 | 0.956 | 0.950 |
+| gemma_4_31b_interwoven_bio | 0.777 | 0.850 | 0.975 | 0.949 |
 
 See `generated_profiles/` for the profile outputs and `05_profile_reverse_scoring_summary.tsv` for the full profile-stage summary.
 
@@ -53,10 +53,10 @@ Reverse scoring the generated LSIs tests whether the sparse-fact composite remai
 
 | conditioning object | all-dim r | all-dim MAE | HEXACO r | beyond-HEXACO r |
 | --- | ---: | ---: | ---: | ---: |
-| opus_4_6_psych_only | 0.928 | 0.541 | 0.908 | 0.965 |
-| opus_4_6_interwoven_bio | 0.826 | 0.511 | 0.885 | 0.869 |
-| gemma_4_31b_psych_only | 0.909 | 0.625 | 0.920 | 0.973 |
-| gemma_4_31b_interwoven_bio | 0.902 | 0.630 | 0.871 | 0.959 |
+| opus_4_6_psych_only | 0.913 | 0.577 | 0.880 | 0.949 |
+| opus_4_6_interwoven_bio | 0.848 | 0.625 | 0.869 | 0.996 |
+| gemma_4_31b_psych_only | 0.881 | 0.716 | 0.945 | 0.948 |
+| gemma_4_31b_interwoven_bio | 0.867 | 0.673 | 0.920 | 0.967 |
 | deterministic_scorecard | 0.913 | 0.511 | 0.869 | 0.964 |
 
 See `generated_lsi_transcripts/` for the transcripts and `06_lsi_reverse_scoring_summary.tsv` for the full summary.
@@ -65,14 +65,14 @@ See `generated_lsi_transcripts/` for the transcripts and `06_lsi_reverse_scoring
 
 Because the public demo uses simplified instructions, the generated LSI format is visibly more structured than the production pipeline. We therefore added a toy lexical-ablation stress test for the four generated-profile conditions. For each generated psychometric-only or interwoven-biography profile, we extracted profile content-words and rewrote the corresponding LSI transcript while avoiding those words. This tests whether the toy recovery is mostly carried by literal profile wording.
 
-The ablation reduced overlapping profile words by `24.6%` to `71.7%`. The synthetic target remained recoverable after ablation: all-dimension recovery stayed between `r = 0.849` and `0.900`, and HEXACO recovery stayed between `r = 0.870` and `0.922`.
+The strict ablation reduced overlapping profile words by `46.6%` to `76.6%`. The synthetic target remained recoverable after ablation: all-dimension recovery stayed between `r = 0.849` and `0.922`, and HEXACO recovery stayed between `r = 0.882` and `0.954`.
 
 | conditioning object | profile-overlap reduction | all-dim r before | all-dim r after | HEXACO r before | HEXACO r after |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| opus_4_6_psych_only | 24.6% | 0.928 | 0.900 | 0.908 | 0.875 |
-| opus_4_6_interwoven_bio | 58.2% | 0.826 | 0.849 | 0.885 | 0.922 |
-| gemma_4_31b_psych_only | 58.2% | 0.909 | 0.884 | 0.920 | 0.870 |
-| gemma_4_31b_interwoven_bio | 71.7% | 0.902 | 0.893 | 0.871 | 0.896 |
+| opus_4_6_psych_only | 46.6% | 0.913 | 0.922 | 0.880 | 0.896 |
+| opus_4_6_interwoven_bio | 60.6% | 0.848 | 0.849 | 0.869 | 0.882 |
+| gemma_4_31b_psych_only | 76.6% | 0.881 | 0.906 | 0.945 | 0.954 |
+| gemma_4_31b_interwoven_bio | 63.6% | 0.867 | 0.907 | 0.920 | 0.882 |
 
 This remains a toy check, not a substitute for the main-paper lexical ablation. Its value is narrower: even in a deliberately inspectable public demo with a more visibly structured LSI format, the recovered trait shape is not erased when profile-overlap wording is substantially reduced.
 
