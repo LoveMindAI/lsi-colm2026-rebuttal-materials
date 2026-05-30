@@ -1,0 +1,34 @@
+character	group	dimension	composite_mean	min_scorer_value	max_scorer_value	range	sonnet_4_6	gemini_3_flash	grok_4_20
+Cillian Frost	HEXACO	HEXACO_Honesty_Humility	3.967	3.5	4.2	0.7	4.2	3.5	4.2
+Cillian Frost	HEXACO	HEXACO_Emotionality	2.867	2.8	3.0	0.2	2.8	3.0	2.8
+Cillian Frost	HEXACO	HEXACO_Extraversion	2.033	1.8	2.3	0.5	1.8	2.0	2.3
+Cillian Frost	HEXACO	HEXACO_Agreeableness	3.633	3.4	4.0	0.6	3.4	3.5	4.0
+Cillian Frost	HEXACO	HEXACO_Conscientiousness	4.533	4.5	4.6	0.1	4.6	4.5	4.5
+Cillian Frost	HEXACO	HEXACO_Openness	3.200	3.0	3.4	0.4	3.2	3.0	3.4
+Cillian Frost	Beyond HEXACO	Sentimentality	3.600	3.5	3.7	0.2	3.6	3.5	3.7
+Cillian Frost	Beyond HEXACO	Social_Anxiety	2.900	2.8	3.0	0.2	2.8	3.0	2.9
+Cillian Frost	Beyond HEXACO	Trust_Benevolence	3.333	3.0	3.8	0.8	3.2	3.0	3.8
+Cillian Frost	Beyond HEXACO	Affective_Responsiveness	3.167	3.0	3.5	0.5	3.0	3.0	3.5
+Cillian Frost	Beyond HEXACO	SVO_Prosocial_Orientation	3.633	3.4	4.0	0.6	3.4	3.5	4.0
+Haruki Minamoto	HEXACO	HEXACO_Honesty_Humility	4.600	4.5	4.8	0.3	4.8	4.5	4.5
+Haruki Minamoto	HEXACO	HEXACO_Emotionality	3.033	2.5	3.4	0.9	3.4	3.2	2.5
+Haruki Minamoto	HEXACO	HEXACO_Extraversion	2.800	2.6	3.0	0.4	2.6	3.0	2.8
+Haruki Minamoto	HEXACO	HEXACO_Agreeableness	4.133	4.0	4.2	0.2	4.2	4.0	4.2
+Haruki Minamoto	HEXACO	HEXACO_Conscientiousness	4.733	4.7	4.8	0.1	4.7	4.8	4.7
+Haruki Minamoto	HEXACO	HEXACO_Openness	4.200	4.0	4.4	0.4	4.4	4.2	4.0
+Haruki Minamoto	Beyond HEXACO	Sentimentality	4.267	4.0	4.5	0.5	4.5	4.0	4.3
+Haruki Minamoto	Beyond HEXACO	Social_Anxiety	2.533	2.2	3.0	0.8	2.4	3.0	2.2
+Haruki Minamoto	Beyond HEXACO	Trust_Benevolence	3.933	3.8	4.0	0.2	3.8	4.0	4.0
+Haruki Minamoto	Beyond HEXACO	Affective_Responsiveness	3.867	3.8	4.0	0.2	4.0	3.8	3.8
+Haruki Minamoto	Beyond HEXACO	SVO_Prosocial_Orientation	4.533	4.5	4.6	0.1	4.6	4.5	4.5
+Roxy Saint-Clair	HEXACO	HEXACO_Honesty_Humility	3.967	3.5	4.2	0.7	4.2	3.5	4.2
+Roxy Saint-Clair	HEXACO	HEXACO_Emotionality	3.200	3.0	3.4	0.4	3.4	3.2	3.0
+Roxy Saint-Clair	HEXACO	HEXACO_Extraversion	2.867	2.8	3.0	0.2	2.8	3.0	2.8
+Roxy Saint-Clair	HEXACO	HEXACO_Agreeableness	3.767	3.5	4.0	0.5	3.8	3.5	4.0
+Roxy Saint-Clair	HEXACO	HEXACO_Conscientiousness	4.333	4.2	4.5	0.3	4.3	4.2	4.5
+Roxy Saint-Clair	HEXACO	HEXACO_Openness	3.400	3.2	3.5	0.3	3.5	3.2	3.5
+Roxy Saint-Clair	Beyond HEXACO	Sentimentality	4.233	4.0	4.4	0.4	4.4	4.0	4.3
+Roxy Saint-Clair	Beyond HEXACO	Social_Anxiety	2.667	2.5	3.0	0.5	2.5	3.0	2.5
+Roxy Saint-Clair	Beyond HEXACO	Trust_Benevolence	3.633	3.4	4.0	0.6	3.4	3.5	4.0
+Roxy Saint-Clair	Beyond HEXACO	Affective_Responsiveness	3.733	3.6	3.8	0.2	3.6	3.8	3.8
+Roxy Saint-Clair	Beyond HEXACO	SVO_Prosocial_Orientation	4.100	4.0	4.2	0.2	4.1	4.0	4.2

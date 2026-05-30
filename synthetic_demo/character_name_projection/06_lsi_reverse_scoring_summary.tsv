@@ -1,0 +1,13 @@
+character	object	all_dimensions_pearson_r_to_name_fact_target	all_dimensions_mean_absolute_error	hexaco_pearson_r_to_name_fact_target	hexaco_mean_absolute_error	beyond_hexaco_pearson_r_to_name_fact_target	beyond_hexaco_mean_absolute_error
+Cillian Frost	opus_4_6_psych_only	0.960	0.451	0.985	0.394	0.832	0.520
+Cillian Frost	gemma_4_31b_psych_only	0.906	0.534	0.970	0.467	0.809	0.614
+Cillian Frost	opus_4_6_interwoven_bio	0.847	0.391	0.958	0.378	-0.231	0.407
+Cillian Frost	gemma_4_31b_interwoven_bio	0.915	0.530	0.962	0.450	0.796	0.627
+Haruki Minamoto	gemma_4_31b_psych_only	0.880	0.533	0.947	0.428	0.933	0.660
+Haruki Minamoto	opus_4_6_psych_only	0.873	0.421	0.994	0.389	0.694	0.460
+Haruki Minamoto	gemma_4_31b_interwoven_bio	0.909	0.439	0.877	0.378	0.966	0.513
+Haruki Minamoto	opus_4_6_interwoven_bio	0.928	0.285	0.912	0.339	0.956	0.220
+Roxy Saint-Clair	gemma_4_31b_psych_only	0.898	0.694	0.879	0.661	0.937	0.733
+Roxy Saint-Clair	gemma_4_31b_interwoven_bio	0.916	0.631	0.894	0.595	0.937	0.674
+Roxy Saint-Clair	opus_4_6_interwoven_bio	0.866	0.391	0.967	0.428	0.924	0.347
+Roxy Saint-Clair	opus_4_6_psych_only	0.686	0.476	0.951	0.500	0.227	0.447

@@ -15,3 +15,9 @@ The generated profiles and 24-section synthetic LSI transcripts are included as 
 This is a public toy demonstration, not a protocol-equivalent rerun of the paper pipeline. The generated narrative profiles and synthetic LSIs were produced with simplified demo instructions designed for inspectability around a fictional persona. To keep the profile stage from becoming a mini-LSI, the generated-profile prompt used second-person, non-chronological prose and explicitly avoided scenes, interview framing, and life-story language. The outputs should be read as an illustrative score-to-narrative-to-score example, not as disclosure of the study's production prompt templates.
 
 The toy demo also includes a lexical-ablation check for the four generated-profile conditions. The ablation rewrites each generated LSI while avoiding content words from its conditioning profile. Profile-overlap words are reduced by `46.6%` to `76.6%`, while all-dimension recovery remains `r = 0.849-0.922`.
+
+## Bonus Character Demo
+
+`character_name_projection/` contains a small bonus demo with three fully fictional characters: Cillian Frost, Haruki Minamoto, and Roxy Saint-Clair. It starts from names only, asks several models to generate seven ordinary facts for each person, reverse-scores those facts into synthetic psychometric targets, and then carries those targets through generated profile portraits and 24-section LSIs.
+
+This bonus demo is intentionally playful and illustrative rather than claim-bearing. Its useful feature is that the three fictional characters are inspectable as separate people, and the recovery tables show that their inferred target structures remain mostly recoverable after profile generation, LSI generation, and lexical ablation.

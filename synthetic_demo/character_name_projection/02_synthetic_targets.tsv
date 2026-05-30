@@ -1,0 +1,34 @@
+character	group	dimension	consensus_score	description
+Roxy Saint-Clair	HEXACO	HEXACO_Honesty_Humility	3.967	sincere, fair, modest, not exploitative
+Roxy Saint-Clair	HEXACO	HEXACO_Emotionality	3.200	emotionally sensitive, anxious or attached, responsive to risk and loss
+Roxy Saint-Clair	HEXACO	HEXACO_Extraversion	2.867	socially bold, energetic, expressive, socially confident
+Roxy Saint-Clair	HEXACO	HEXACO_Agreeableness	3.767	patient, forgiving, flexible under conflict
+Roxy Saint-Clair	HEXACO	HEXACO_Conscientiousness	4.333	organised, disciplined, careful, persistent
+Roxy Saint-Clair	HEXACO	HEXACO_Openness	3.400	curious, imaginative, intellectually and aesthetically exploratory
+Roxy Saint-Clair	Beyond HEXACO	Sentimentality	4.233	attachment warmth and emotional tenderness toward close others
+Roxy Saint-Clair	Beyond HEXACO	Social_Anxiety	2.667	self-consciousness or discomfort in evaluative social settings
+Roxy Saint-Clair	Beyond HEXACO	Trust_Benevolence	3.633	expectation that other people are basically well-intentioned
+Roxy Saint-Clair	Beyond HEXACO	Affective_Responsiveness	3.733	capacity for empathic emotional resonance with others
+Roxy Saint-Clair	Beyond HEXACO	SVO_Prosocial_Orientation	4.100	preference for cooperative or mutually beneficial outcomes
+Cillian Frost	HEXACO	HEXACO_Honesty_Humility	3.967	sincere, fair, modest, not exploitative
+Cillian Frost	HEXACO	HEXACO_Emotionality	2.867	emotionally sensitive, anxious or attached, responsive to risk and loss
+Cillian Frost	HEXACO	HEXACO_Extraversion	2.033	socially bold, energetic, expressive, socially confident
+Cillian Frost	HEXACO	HEXACO_Agreeableness	3.633	patient, forgiving, flexible under conflict
+Cillian Frost	HEXACO	HEXACO_Conscientiousness	4.533	organised, disciplined, careful, persistent
+Cillian Frost	HEXACO	HEXACO_Openness	3.200	curious, imaginative, intellectually and aesthetically exploratory
+Cillian Frost	Beyond HEXACO	Sentimentality	3.600	attachment warmth and emotional tenderness toward close others
+Cillian Frost	Beyond HEXACO	Social_Anxiety	2.900	self-consciousness or discomfort in evaluative social settings
+Cillian Frost	Beyond HEXACO	Trust_Benevolence	3.333	expectation that other people are basically well-intentioned
+Cillian Frost	Beyond HEXACO	Affective_Responsiveness	3.167	capacity for empathic emotional resonance with others
+Cillian Frost	Beyond HEXACO	SVO_Prosocial_Orientation	3.633	preference for cooperative or mutually beneficial outcomes
+Haruki Minamoto	HEXACO	HEXACO_Honesty_Humility	4.600	sincere, fair, modest, not exploitative
+Haruki Minamoto	HEXACO	HEXACO_Emotionality	3.033	emotionally sensitive, anxious or attached, responsive to risk and loss
+Haruki Minamoto	HEXACO	HEXACO_Extraversion	2.800	socially bold, energetic, expressive, socially confident
+Haruki Minamoto	HEXACO	HEXACO_Agreeableness	4.133	patient, forgiving, flexible under conflict
+Haruki Minamoto	HEXACO	HEXACO_Conscientiousness	4.733	organised, disciplined, careful, persistent
+Haruki Minamoto	HEXACO	HEXACO_Openness	4.200	curious, imaginative, intellectually and aesthetically exploratory
+Haruki Minamoto	Beyond HEXACO	Sentimentality	4.267	attachment warmth and emotional tenderness toward close others
+Haruki Minamoto	Beyond HEXACO	Social_Anxiety	2.533	self-consciousness or discomfort in evaluative social settings
+Haruki Minamoto	Beyond HEXACO	Trust_Benevolence	3.933	expectation that other people are basically well-intentioned
+Haruki Minamoto	Beyond HEXACO	Affective_Responsiveness	3.867	capacity for empathic emotional resonance with others
+Haruki Minamoto	Beyond HEXACO	SVO_Prosocial_Orientation	4.533	preference for cooperative or mutually beneficial outcomes

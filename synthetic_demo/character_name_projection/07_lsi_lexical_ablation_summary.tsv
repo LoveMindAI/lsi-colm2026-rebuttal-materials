@@ -1,0 +1,13 @@
+character	object	profile_content_words	profile_words_in_original_lsi	profile_words_in_ablated_lsi	profile_word_reduction	profile_word_reduction_pct	original_word_count	ablated_word_count	original_all_dimensions_r	ablated_all_dimensions_r	delta_all_dimensions_r	original_hexaco_r	ablated_hexaco_r	delta_hexaco_r	original_beyond_hexaco_r	ablated_beyond_hexaco_r	delta_beyond_hexaco_r
+Haruki Minamoto	opus_4_6_psych_only	300	175	36	139	0.794	1986	1952	0.873	0.928	+0.055	0.994	0.991	-0.003	0.694	0.865	+0.171
+Cillian Frost	opus_4_6_psych_only	300	140	47	93	0.664	2022	2041	0.960	0.963	+0.003	0.985	0.987	+0.002	0.832	0.829	-0.003
+Haruki Minamoto	gemma_4_31b_psych_only	154	111	27	84	0.757	2107	2092	0.880	0.876	-0.004	0.947	0.953	+0.006	0.933	0.951	+0.018
+Roxy Saint-Clair	gemma_4_31b_psych_only	139	109	18	91	0.835	2044	2045	0.898	0.914	+0.016	0.879	0.899	+0.020	0.937	0.933	-0.004
+Haruki Minamoto	opus_4_6_interwoven_bio	300	165	46	119	0.721	2137	2190	0.928	0.912	-0.016	0.912	0.911	-0.001	0.956	0.945	-0.011
+Haruki Minamoto	gemma_4_31b_interwoven_bio	190	145	32	113	0.779	2041	2029	0.909	0.899	-0.010	0.877	0.865	-0.012	0.966	0.993	+0.027
+Roxy Saint-Clair	gemma_4_31b_interwoven_bio	174	123	24	99	0.805	2101	2052	0.916	0.926	+0.010	0.894	0.904	+0.010	0.937	0.954	+0.017
+Cillian Frost	gemma_4_31b_psych_only	136	102	19	83	0.814	2110	2083	0.906	0.915	+0.009	0.970	0.970	+0.000	0.809	0.705	-0.104
+Roxy Saint-Clair	opus_4_6_psych_only	300	147	40	107	0.728	2072	2159	0.686	0.692	+0.006	0.951	0.938	-0.013	0.227	0.318	+0.091
+Cillian Frost	gemma_4_31b_interwoven_bio	177	118	18	100	0.847	2156	2056	0.915	0.933	+0.018	0.962	0.966	+0.004	0.796	0.873	+0.077
+Cillian Frost	opus_4_6_interwoven_bio	300	109	25	84	0.771	2184	2169	0.847	0.894	+0.047	0.958	0.974	+0.016	-0.231	0.013	+0.244
+Roxy Saint-Clair	opus_4_6_interwoven_bio	300	148	36	112	0.757	2142	2126	0.866	0.845	-0.021	0.967	0.956	-0.011	0.924	0.909	-0.015
