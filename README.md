@@ -4,6 +4,8 @@ This repository contains the COLM 2026 rebuttal response text for the Life Story
 
 It is organised around the reviewer responses rather than the internal analysis history:
 
+- `DISCUSSION_TO_REVISED_DRAFT_MAP_20260608.md`: AC/reviewer-facing map from discussion concerns to revised draft changes.
+- `camera_ready_draft_20260608/`: revised 10-page discussion-stage draft PDF.
 - `reviewer_responses/`: paste-ready responses, one per reviewer, with markdown headings and character counts.
 - `GLOBAL_SUMMARY.md`: short cross-reviewer summary of the response strategy and evidence.
 - `supplemental_notes/SUPPLEMENTAL_NOTES.md`: brief context for points that were compressed by the 5,000-character response limit.
