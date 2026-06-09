@@ -10,6 +10,17 @@ This document maps the review-discussion concerns to the revised discussion-stag
 
 The revised draft narrows the paper's scientific object: it is not a claim that generated life-story interviews are substitutes for matched human-authored LSIs, nor a claim that the paper identifies the training-data source or mechanism of the capability. The scoped claim is that measured psychometric profiles can be transformed into controlled profile prose and generated LSI-style narrative such that source individual-difference structure remains recoverable across participants, generators, scorers, controls, and reference analyses.
 
+## June 9 Polish Patch
+
+After an additional audit of the revised draft, we made a small clarification pass to remove several possible ambiguities before Area Chair review:
+
+1. **Scorecard reference provenance clarified.** The Table 2 row previously labelled "Matched PsychNarr reference" is now labelled "Matched 4-part PsychNarr subset." This number comes from the strict scorecard-control subset using the same two 4-part generators and two scorers as the scorecard controls, not from the broader 20-row primary matrix in Table 1.
+2. **Qwen family ambiguity resolved.** The base/post-trained Qwen comparison now states that Qwen3.5-35B-A3B is a different, larger sibling pair than the Qwen 3.6 27B checkpoint used as one of the four main LSI generators.
+3. **Conversation-reference figure split.** Figure 3 now uses two panels: short participant-conversation references on the left and generated-LSI round-trip recovery on the right. The caption explicitly states that these are different constructs.
+4. **Uncertainty wording tightened.** Figure 1 no longer calls generator-scorer row intervals participant-level confidence intervals; the caption now describes them as descriptive intervals over generator-scorer rows.
+5. **Emotional-reactivity covariate named.** Appendix F now states that independent-coder partial correlations control for mean valence.
+6. **Rebuttal-process scaffolding reduced.** Appendix wording was neutralised so the manuscript reads as a revised paper rather than a discussion-history log.
+
 ## High-Level Changes
 
 1. **Claim narrowed.** The draft now frames the result as psychometric-linguistic encoding and decoding through generated narrative, not unrestricted personality simulation or human-LSI equivalence.
