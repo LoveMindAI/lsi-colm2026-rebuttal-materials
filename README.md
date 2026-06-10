@@ -4,10 +4,10 @@ This repository contains the COLM 2026 rebuttal response text for the Life Story
 
 ## Current Revised Draft
 
-The revised discussion-stage draft PDF was most recently updated on **2026-06-09 at 19:42 EDT**. If this draft is being referenced as part of an Area Chair or meta-review process, please briefly confirm that you are viewing the freshest copy rather than an earlier cached or downloaded PDF.
+The revised discussion-stage draft PDF was most recently updated on **2026-06-09 at 20:12 EDT**. If this draft is being referenced as part of an Area Chair or meta-review process, please briefly confirm that you are viewing the freshest copy rather than an earlier cached or downloaded PDF.
 
 - Current draft: `camera_ready_draft_20260608/lsi_colm2026_10page_camera_ready_draft_20260608.pdf`
-- Current PDF SHA-256: `021a682b9ffd3b626db9dee65ea5661346fc9e6d91be0c25bdac099481bf9fad`
+- Current PDF SHA-256: `fa4f7305ee62822688e8c1c4f341a49336919146b0f460b82ef131d966c59c3b`
 - Latest correction map: `DISCUSSION_TO_REVISED_DRAFT_MAP_20260608.md`
 
 It is organised around the reviewer responses rather than the internal analysis history:

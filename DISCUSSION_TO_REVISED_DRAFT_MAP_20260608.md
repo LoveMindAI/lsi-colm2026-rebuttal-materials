@@ -20,6 +20,7 @@ After an additional audit of the revised draft, we made a small clarification pa
 4. **Uncertainty wording tightened.** Figure 1 no longer calls generator-scorer row intervals participant-level confidence intervals; the caption now describes them as descriptive intervals over generator-scorer rows.
 5. **Emotional-reactivity covariate named.** Appendix F now states that independent-coder partial correlations control for mean valence.
 6. **Rebuttal-process scaffolding reduced.** Appendix wording was neutralised so the manuscript reads as a revised paper rather than a discussion-history log.
+7. **Final construct and limitation wording tightened.** The main text now uses "narrative-mediated psychometric binding" as the primary construct name, and the limitations state that the main narrative rows hold the profile writer constant while deterministic scorecard controls bypass the profile writer and still recover signal.
 
 ## High-Level Changes
 
